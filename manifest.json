@@ -1,0 +1,23 @@
+{
+  "name": "WebPage Editor",
+  "version": "1.0.1",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "icons": {
+    "16": "NOEDIT.png"
+  },
+  "browser_action": {
+    "default_title": "Edit any Webpage with ease Temporarily",
+    "default_icon": "NOEDIT.png"
+  },
+  "homepage_url": "https://github.com/PankPanther/Webpage-Editor",
+  "manifest_version": 2
+  }
